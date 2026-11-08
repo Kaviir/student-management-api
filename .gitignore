@@ -1,0 +1,22 @@
+# Build output
+target/
+*.class
+
+# Local secrets
+src/main/resources/application-local.properties
+.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.apt_generated/
+*.iws
+*.ipr
+.DS_Store
+
+# Logs
+*.log
